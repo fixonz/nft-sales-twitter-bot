@@ -4,6 +4,8 @@ This was made to succeed my [Opensea Sales Twitter Bot](https://github.com/dsgri
 
 So, we need to monitor & process Ethereum event logs for ERC-721 token transactions directly, before posting any sales to Twitter.
 
+[<img  data-src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://open.autocode.com/)
+
 ## Aims 🎯
 
 The aim is to monitor all sales across Ethereum for a given contract. However, different marketplaces can send sale logs in different formats, so we need to process major market logs manually (see `markets.js`).
